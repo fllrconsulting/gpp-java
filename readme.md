@@ -1,6 +1,7 @@
 # GPP Decoder and Encoder
 
 This project decodes and encodes GPP strings using the `iabgpp-encoder` library. The application allows decoding GPP strings into a readable format and encoding GPP strings based on provided input values.
+https://github.com/IABTechLab/iabgpp-java
 
 ## Environment Setup
 
