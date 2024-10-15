@@ -1,0 +1,38 @@
+$ mvn exec:java -Dexec.mainClass="com.java.com.example.GppDecoder"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.example:gpp-decoder >-----------------------
+[INFO] Building gpp-decoder 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec:3.4.1:java (default-cli) @ gpp-decoder ---
+{
+  "usnatv1" : {
+    "Version" : 1,
+    "SharingNotice" : 1,
+    "SaleOptOutNotice" : 1,
+    "SharingOptOutNotice" : 1,
+    "TargetedAdvertisingOptOutNotice" : 1,
+    "SensitiveDataProcessingOptOutNotice" : 0,
+    "SensitiveDataLimitUseNotice" : 0,
+    "SaleOptOut" : 2,
+    "SharingOptOut" : 2,
+    "TargetedAdvertisingOptOut" : 2,
+    "SensitiveDataProcessing" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "KnownChildSensitiveDataConsents" : [ 0, 0 ],
+    "PersonalDataConsents" : 2,
+    "MspaCoveredTransaction" : 2,
+    "MspaOptOutOptionMode" : 0,
+    "MspaServiceProviderMode" : 0,
+    "GpcSegmentType" : 1,
+    "GpcSegmentIncluded" : true,
+    "Gpc" : false
+  }
+}
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.717 s
+[INFO] Finished at: 2024-10-15T01:16:14-04:00
+[INFO] ------------------------------------------------------------------------
